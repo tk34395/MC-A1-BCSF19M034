@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: larger;
+  background-color: #d0e1f9;
+  font-family: sans-serif;
+}
+.navbar {
+  padding: 10px 30px;
+  background-color: #4d648d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+ul > li {
+  list-style: "✧  ";
+}
+
+.nav-icon {
+  padding-right: 30px;
+}
+.nav-title {
+  color: #1e1f26;
+  font-weight: 500;
+  font-size: x-large !important;
+}
+.web-body {
+  padding: 15px 50px;
+}
+
+h2,
+h3,
+h5,
+h4,
+h6 {
+  color: #213962;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.7em;
+  margin-top: 10px;
+}
+h4 {
+  font-size: 1.4em;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
+  font-size: 1.1em;
+}
+
+#github,
+#repo,
+#account,
+#publicrepo,
+#privaterepo,
+#privateToPublic,
+#cloning,
+#adding,
+#deleting,
+#branching,
+#renaming,
+#deleting,
+#merging,
+#pull,
+#fork,
+#livepages,
+#edit {
+  margin-top: 25px;
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+ul > li::marker {
+  font-weight: bolder;
+}
+
+ol > li > a,
+ul > li > a,
+p > a {
+  text-decoration: none;
+}
+
+ol > li > a:hover,
+ul > li > a:hover {
+  color: olivedrab;
+}
+
+.git-toc {
+  border: 2px solid #4d648d;
+  width: fit-content;
+  padding: 10px 20px;
+  padding-bottom: 0px;
+  background-color: #dbe6f7ce;
+  margin-bottom: 15px;
+}
+
+.reposi {
+  padding: 15px 0px;
+}
+p {
+  padding-left: 20px;
+}
+
+a:active {
+  color: #4d648d;
+}
+
+.footer {
+  height: 40px;
+  background-color: #4d648d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #d0e1f9;
+}
